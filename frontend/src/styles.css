@@ -1,0 +1,7 @@
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin: 0; padding: 16px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+.movie-card img { width: 100%; height: auto; border-radius: 8px; }
+.movie-card .meta { padding: 8px 0; }
+.details { display: flex; gap: 16px; align-items: flex-start; }
+.search { display:flex; gap:8px; margin-bottom:12px; }
+.no-poster { width:100%; height:240px; background:#eee; display:flex; align-items:center; justify-content:center; border-radius:8px; }
