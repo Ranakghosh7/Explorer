@@ -30,3 +30,16 @@ movie-explorer-backend/
 ├── tsconfig.json       # TypeScript compiler settings
 ├── package.json
 └── README.md
+
+# Movie Explorer Backend
+
+A lightweight, TypeScript-based backend service built with Express for fetching and serving movie data. This backend is designed as the API layer for a Movie Explorer application, acting as the bridge between the frontend UI and external movie APIs such as TMDB.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/movie-explorer-backend.git
+cd movie-explorer-backend
