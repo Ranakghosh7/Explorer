@@ -17,3 +17,16 @@ A lightweight, TypeScript-based backend service built with Express for fetching 
 🎬 Movie data fetching using axios
 
 📦 Clear build pipeline outputting JS to build/
+
+movie-explorer-backend/
+├── src/
+│   ├── index.ts        # Main server entry point
+│   ├── routes/         # Express route handlers (recommended structure)
+│   ├── controllers/    # API controller logic
+│   ├── services/       # External API calls (Axios)
+│   └── utils/          # Helpers / shared logic
+│
+├── .env                # Environment configuration (not committed)
+├── tsconfig.json       # TypeScript compiler settings
+├── package.json
+└── README.md
